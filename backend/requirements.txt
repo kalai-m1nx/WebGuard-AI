@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+firebase-admin
+scikit-learn
+beautifulsoup4
+httpx
+python-dotenv

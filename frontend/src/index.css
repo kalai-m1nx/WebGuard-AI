@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0B0F19;
+  --color-card: #151C2C;
+  --color-primary: #00D1FF;
+  --color-danger: #FF3366;
+  --color-warning: #FFB800;
+  --color-success: #00E676;
+  --color-textMain: #E2E8F0;
+  --color-textMuted: #94A3B8;
+  --font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-textMain font-sans antialiased selection:bg-primary/30;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-md border border-white/10 shadow-xl;
+  }
+}
