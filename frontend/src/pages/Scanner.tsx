@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { scanUrl } from '../services/api';
-import { Activity, ShieldAlert, Loader } from 'lucide-react';
+import { Activity, ShieldAlert } from 'lucide-react';
 
 export default function Scanner() {
   const location = useLocation();

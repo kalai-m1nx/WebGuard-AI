@@ -1,5 +1,5 @@
 import { ShieldAlert, Search, Activity, ChevronRight } from 'lucide-react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 export default function LandingPage() {
