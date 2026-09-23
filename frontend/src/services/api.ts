@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'https://webguard-ai-dn8h.onrender.com/api';
 
 export const scanUrl = async (url: string) => {
   const response = await fetch(`${API_URL}/scan`, {
